@@ -1,4 +1,4 @@
-function resultado(){
+ function resultado(){
 var peso = document.getElementById("peso").value;//al ser "string" convertir con parseInt o parseFloat
 var estatura = document.getElementById("estatura").value;
 console.log(peso);
@@ -12,3 +12,5 @@ alert("Error");
 //var imc = (peso/Math.pow(estatura,2));
 
 }
+
+
